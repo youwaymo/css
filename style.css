@@ -12,17 +12,18 @@
 .assign-1-shape-3{
     background-color: rgb(138,43,226, 0.1);
 } */
-.container{
-    display: flex;
-}
 
-.container>div{
+/* .container{
+    display: flex;
+} */
+
+/* .container>div{
     width: 400px;
     height: 400px;
     background-color: aliceblue;
     margin: 5px;
     background-image: url('img/css-img.png');
-}
+} */
 
 /*
 .assign-2-shape-1{
@@ -76,3 +77,50 @@
     background-repeat: no-repeat;
     background-position: bottom right;
 } */
+
+/* .container>div{
+    background-color: rgb(111, 137, 160);
+    display: inline-block;
+    outline: black solid 5px;
+    padding: 30px;
+    margin: 20px;
+    border-width: 5px;
+}
+
+.element-1{
+    border-color: red;
+    border-style: solid;
+}
+
+.element-2{
+    border-color: green blue;
+    border-style: solid;
+}
+
+.element-3{
+    border-color: yellow red green blue;
+    border-style: dashed;
+}
+*/
+
+.element{
+    background-color: beige ;
+    width: 400px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: beige;
+
+}
+
+.element-2{
+    visibility: hidden;
+    margin: 5px;
+}
+
+.element-3 ,.element-1{
+    margin: 5px;
+    padding: 7px;
+    border-style: solid;
+    border-color: transparent transparent transparent brown;
+
+}
