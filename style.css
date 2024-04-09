@@ -103,7 +103,7 @@
 }
 */
 
-.element{
+/* .element{
     background-color: beige ;
     width: 400px;
     outline-width: 5px;
@@ -123,4 +123,27 @@
     border-style: solid;
     border-color: transparent transparent transparent brown;
 
+} */
+
+/* .child .title{
+    color: red;
 }
+
+.parent>.title{
+    color: blue;
+}
+
+p, .parent+.title{
+    color: green;
+} */
+
+/* div{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-bottom: 5px ;
+    max-width: 400px;
+    width: fit-content;
+    height: 30px;
+    overflow-y: hidden;
+} */
