@@ -176,7 +176,7 @@ p, .parent+.title{
     text-transform: lowercase;
 } */
 
-.one, .two ,.three{
+/* .one, .two ,.three{
 
     box-sizing: border-box;
     background-color: rgb(128,128,128, 0.1);
@@ -187,7 +187,7 @@ p, .parent+.title{
     border-radius: 5px;
     text-align: center;
 
-}
+} */
 
 /* .two{
     white-space: nowrap;
@@ -255,4 +255,57 @@ p{
 
 .three{
     font-size: calc(30/16*(1rem));
+} */
+
+/* .main{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(139, 116, 116);
+    overflow: hidden;
+}
+
+.main>div{
+    box-sizing: border-box;
+    margin: 15px 0 15px 15px;
+    padding: 15px;
+    background-color: rgb(200, 166, 166);
+}
+
+.one{
+    width: calc(100% - 30px);
+    float: left;
+}
+
+.two {
+    width: calc((100% - 60px) / 3);
+    float: left;
+}
+
+.three {
+    width: calc((100% - 45px) / 2);
+    float: left;
+}
+
+.four{
+    width: calc((100% - 75px) / 4);
+    float: left;
+} */
+
+/* div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: gray; /* Get The Background From Image */
+    color: black;
+}
+
+.one{
+    background-color: rgb(128 128 128/0.1);
+}
+
+.two{
+    opacity: 0.1;
 } */
