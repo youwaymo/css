@@ -422,7 +422,7 @@ li ul li{
     list-style-position: inside;
 } */
 
-/* table{
+table{
     width: 700px;
     margin: auto;
     text-align: center;
@@ -435,9 +435,7 @@ tr{
     background-color: rgb(241, 235, 235);
 }
 
-.one{
-    background-color: white;
-}
+
 
 table, th, td{
     border: solid white 1px;
@@ -447,6 +445,12 @@ table, th, td{
 th{
     background-color: rgb(38, 32, 32);
     color: white;
+}
+
+.one th{
+    background-color: white;
+    color: black;
+    padding: 15px 0;
 }
 
 .sone{
@@ -465,5 +469,5 @@ th{
 img{
     margin: 5px;
     width: 50px;
-} */
+}
 
