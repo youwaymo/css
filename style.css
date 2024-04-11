@@ -298,7 +298,7 @@ p{
     font-weight: bold;
     font-size: 1rem;
     padding: 20px;
-    background-color: gray; /* Get The Background From Image */
+    background-color: gray; /* Get The Background From Image
     color: black;
 }
 
@@ -309,3 +309,161 @@ p{
 .two{
     opacity: 0.1;
 } */
+
+/* html, .container{
+    margin: 0;
+    
+}
+.blue, .green, .red, .black{
+    width: 100px;
+    height: 100px;
+}
+
+.blue{
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.black{
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+.red{
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+} */
+
+/* div{
+    width: 400px;
+    margin:30px auto;
+    background-color: rgb(227, 210, 210);
+    position: relative;
+    padding: 15px;
+    border: solid 3px;
+    border-color: red blue;
+    text-align: center;
+}
+
+.top-left, .top-right, .bottom-right, .bottom-left{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    background-color: rgb(108, 108, 255);
+    color: white;
+}
+
+.top-left{
+    top: -10px;
+    left: -15px;
+    border-right: solid red 3px;
+}
+
+.top-right{
+    top: -10px;
+    right: -15px;
+    border-left: solid red 3px;
+}
+
+.bottom-left{
+    bottom: -10px;
+    left: -15px;
+    border-right: solid red 3px;
+}
+
+.bottom-right{
+    bottom: -10px;
+    right: -15px;
+    border-left: solid red 3px;
+} */
+
+/* .lstn{
+    width: 400px;
+    margin: auto;
+    list-style-type: none;
+ 
+}
+
+.main-li {
+    background-color: rgb(233, 215, 215);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.main-li li {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.main-li ul{
+    padding-left: 0;
+}
+
+li ul li{
+    list-style-position: inside;
+} */
+
+/* table{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    vertical-align: middle;
+    
+}
+
+tr{
+    background-color: rgb(241, 235, 235);
+}
+
+.one{
+    background-color: white;
+}
+
+table, th, td{
+    border: solid white 1px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(38, 32, 32);
+    color: white;
+}
+
+.sone{
+    background-color: rgb(140, 140, 255);
+    padding: 2px 6px;
+    color: white;
+    margin-right: 5px;
+}
+.stwo{
+    background-color: rgb(255, 63, 63);
+    padding: 2px 6px;
+    color: white;
+}
+
+
+img{
+    margin: 5px;
+    width: 50px;
+} */
+
