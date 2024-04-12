@@ -422,7 +422,7 @@ li ul li{
     list-style-position: inside;
 } */
 
-table{
+/* table{
     width: 700px;
     margin: auto;
     text-align: center;
@@ -469,5 +469,96 @@ th{
 img{
     margin: 5px;
     width: 50px;
+} */
+
+/* div{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #EEE;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
 }
+
+div:empty{
+    background-color: red;
+} */
+
+/* div{
+    position: relative;
+    height: 50px;
+    width: fit-content;
+    padding: 7px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #eee;
+    margin: auto;
+}
+
+div::first-letter{
+    opacity: 0;
+}
+
+div::before{
+    content: "1";
+    position: absolute;
+    padding: 1px 5px;
+    background-color: red;
+    color: white;
+    left: -7px;
+} */
+
+/* p{
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    margin-left: 100px;
+    border-left: red solid 4px;
+}
+
+p::before{
+    content: attr(data-person);
+    display: block;
+    position: absolute;
+    width: fit-content;
+    top: 3px;
+    left: -80px;
+    background-color: #eee;
+    padding: 7px ;
+    width: 50px;
+}
+
+p::after{
+    content: "";
+    border: solid 13px;
+    border-color: transparent red transparent transparent;
+    position: absolute;
+    left: -27px;
+    top: 7px;
+} */
+
+/* p{
+    position: relative;
+    counter-increment: i;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px ;
+    padding: 7px;
+    background-color: #eee;
+    border-right: red solid 3px;
+}
+
+p::before{
+    content: counter(i);
+    position: absolute;
+    width: 30px;
+    left: -44px;
+    top: 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 7px;
+} */
 
