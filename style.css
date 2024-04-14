@@ -562,3 +562,114 @@ p::before{
     padding: 7px;
 } */
 
+
+
+/* div{
+    float: left;
+    counter-increment: i;
+    position: relative;
+    display: block;
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: calc(100px/2);
+    border: 3px solid;
+    line-height: 100px;
+    margin-right: 30px;
+    margin-top: 20px ;
+    box-shadow: red -7px -7px, 7px 7px blue;
+}
+
+div::before{
+    background-color: black;
+    position: absolute;
+    display: block;
+    content: counter(i);
+    color: white;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    top: -15px;
+    left: 35px;
+}
+
+div::after{
+    content: "Element";
+} */
+/* 
+div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #eee;
+    border-radius: 15px 50px 15px 50px;
+    box-shadow: black 0px 0px 10px 0px inset;
+} */
+
+/* .parent{
+    width: 550px;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.child{
+    background-color: #eee;
+    width: 225px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.child:first-child::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    border-right: solid rgb(141, 141, 250) 1.5px;
+    height: 100%;
+}
+
+.child:first-child::before{
+    content: "Or";
+    position: absolute;
+    color: white;
+    display: block;
+    background-color: rgb(141, 141, 250);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    right: -40px;
+    top: calc(50% - 15px);
+    z-index: 1;
+}
+
+.child div:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 141, 250);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.child div+div{
+    background-color: #dbcaca;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+} */
+
