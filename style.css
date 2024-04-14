@@ -673,3 +673,64 @@ div{
     border-radius: 100px;
 } */
 
+/* .parent{
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-color: #fbf5f5;
+    padding: 10px 20px;
+    top: 20px;
+}
+
+.parent:hover{
+    top: 0px;
+    transition-property: top;
+    transition-duration: 500ms;
+}
+
+.parent:hover .child{
+    top: 20px;
+    transition: top 1000ms;
+}
+
+.child{
+    top: 0px;
+    position: relative;
+    padding: 15px 10px;
+    background-color: #eed9d9;
+} */
+
+/* div{
+    text-indent: -100px;
+    background-color: #eee !important;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px !important;
+    color: rgb(0,0,0,0) !important;
+    border: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div::after{
+    content: "Elzero";
+    color: black;
+    font-weight: 700;
+} */
+
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+  
+div {
+    width: 400px;
+    margin: 10px auto;
+    color: var(--mainColor, red);
+    border: var(--mainColor, black) solid 2px;
+    padding: var(--mainPadding, 10px);
+    font-family: Arial, Helvetica, sans-serif;
+} */
