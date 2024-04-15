@@ -734,3 +734,238 @@ div {
     padding: var(--mainPadding, 10px);
     font-family: Arial, Helvetica, sans-serif;
 } */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 0 0 0 rgb(191, 191, 254), 10px 0 0 0 rgb(255, 109, 109);
+    border-radius: 50px;
+    background-color: #eee;
+} */
+
+
+/* .parent{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #eee;
+    justify-content: space-around;
+    align-items: ;
+    align-content: space-between;
+    padding: 10px;
+
+}
+
+.parent div{
+    background-color: red;
+    flex-basis: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+} */
+
+/* .parent{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #eee;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.parent div{
+    flex-basis: 190px;
+    display: flex;
+    color: white;
+    background-color: #5a86a7;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    height: 40px;
+    order: 2;
+}
+
+.one{
+    height: 40px;
+    order: 6;
+    align-self: flex-end;
+}
+
+.six{
+    order: 1;
+}
+
+.five{
+    order: 4;
+}
+
+.four{
+    order: 3;
+}
+
+.two{
+    order: 5;
+} */
+
+/* .parent{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.parent div{
+    background-color: rgb(157, 160, 157);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 90px;
+}
+
+.two{
+    width: calc(100% / 2);
+}
+
+.one , .three{
+    width: 30px;
+    align-self: flex-end;
+} */
+
+/* .parent{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.parent div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-basis: 100px;
+    height: 50%;
+}
+
+.one{
+    background-color: orange;
+    order: 2;
+
+}
+
+.two{
+    background-color: green;
+    order: 3;
+    align-self: flex-end;
+}
+
+.three{
+    background-color: brown;
+    order: 4;
+}
+
+.four{
+    background-color: blue;
+    align-self: flex-end;
+} */
+
+/* :root{
+    --main-color: #eee;
+    --main-padding:10px;
+    --child-color: #eddada;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    flex-basis: 14%;
+    background-color: var(--child-color);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    background-color: var(--child-color);
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 80%;
+    height: 100%;
+    margin: 0;
+}
+
+.links li{
+    padding: var(--main-padding);
+}
+
+.page{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    padding: var(--main-padding);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.main-area{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    flex-basis: 70%;
+    padding: var(--main-padding);
+    background-color: var(--child-color);
+}
+
+.sidebar{
+    flex-basis: 24%;
+    padding: var(--main-padding);
+    background-color: var(--child-color);
+}
+
+.header, .footer{
+    flex-basis: 15%;
+}
+
+.footer{
+    display: flex;
+    background-color: var(--child-color);
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+} */
